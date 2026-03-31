@@ -1,6 +1,11 @@
 :root {
     font-family: 'Arial', sans-serif;
+    color: var(--carbon_black);
+    --carbon_black:191919;
     --violet: #553A41;
+    --pink: #bb7e8c;
+    --gray: #E6E8E6;
+    --blue: #3a6ea5;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
 
 .logo {
     width: 130px;
+    cursor: pointer;
 }
 
 header {
@@ -21,13 +27,16 @@ header {
     padding: 10px;
     padding-left: 60px;
     padding-right: 80px;
-    background-color: #bb7e8c;
+    background-color: var(--pink);
 }
 
 nav a {
     text-decoration: none;
     font-size: 24px;
     cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 nav {
@@ -37,9 +46,57 @@ nav {
 }
 
 nav a:hover {
-    background-color: #191919;
+    background-color: var(--violet);
 }
 
-.hero_section { 
+.hero {
+    min-height: 400px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 70%), 
+                        url('images/hero_section_bg_v2.png');
+
+    background-size: cover;
+    background-position: center; 
+
     display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.hero-content {
+    max-width: 500px;
+    color: #ffffff;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--blue);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
 }
