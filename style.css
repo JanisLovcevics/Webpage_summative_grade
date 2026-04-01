@@ -1,11 +1,12 @@
 :root {
     font-family: 'Arial', sans-serif;
     color: var(--carbon_black);
-    --carbon_black:191919;
+    --carbon_black: #191919;
     --violet: #553A41;
     --pink: #bb7e8c;
     --gray: #E6E8E6;
     --blue: #3a6ea5;
+    --hover_blue: #2a4e75;
 }
 
 body {
@@ -51,8 +52,7 @@ nav a:hover {
 
 .hero {
     min-height: 400px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 70%), 
-                        url('images/hero_section_bg_v2.png');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 80%), url('images/hero_section_bg_v2.png');
 
     background-size: cover;
     background-position: center; 
@@ -85,6 +85,11 @@ nav a:hover {
     border-radius: 4px;
     margin-top: 20px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--hover_blue);
 }
 
 .layout {
@@ -99,4 +104,19 @@ h1 {
 
 p {
     font-size: 16px;
+}
+
+.disc_products {
+    background-color: var(--pink);
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.underlined_hd {
+    border-bottom: 1px var(--carbon_black) solid;
+    padding-bottom: 15px;
 }
