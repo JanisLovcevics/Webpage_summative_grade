@@ -113,6 +113,12 @@ p {
     padding-bottom: 30px;
 }
 
+.new_arrivals {
+    background-color: var(--pink);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
 h2 {
     font-size: 28px;
     margin-bottom: 20px;
@@ -164,4 +170,14 @@ h3 {
     text-decoration: line-through;
     color: var(--carbon_black);
     margin-right: 10px;
+}
+
+.about {
+    background-color: var(--pink);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.about p{
+    font-size: calc(1.25 * var(--text-size));
 }
