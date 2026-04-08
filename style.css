@@ -196,11 +196,45 @@ footer {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .search-area {
     display: flex;
     flex-direction: row;
-    max-height: 100px;
+    max-height: 50px;
+    background-color: var(--pink);
+}
+
+.search-bar {
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    font-size: var(--text-size);
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-btn {
+    background-color: var(--gray);
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn img {
+    height: 20px;
+}
+
+.filter {
+    
 }

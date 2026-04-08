@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Store</title>
 </head>
 <body>
     <div class="layout">
@@ -16,9 +16,22 @@
             </nav>
         </header>
         <main>
-            <div class="search-area">
-                <input type="search" placeholder="Search">
-                <button name="search-btn" class="search-btn"><img src="images/loupe.png"></button>
+            <div class="search">
+                <div class="search-area">
+                    <input type="search" placeholder="Search" class="search-bar">
+                    <button name="search-btn" class="search-btn"><img src="images/loupe.png"></button>
+                </div>
+                <div class="filter">
+                    <select>
+                        <option value="all">All</option>
+                        <option value="dresses">Dresses</option>
+                        <option value="coats">Coats</option>
+                        <option value="cardigans">Cardigans</option>
+                        <option value="skirts">Skirts</option>
+                        <option value="blazers">Blazers</option>
+                        <option value="slip-dresses">Slip Dresses</option>
+                    </select>
+                </div>
             </div>
         </main>
     </div>
