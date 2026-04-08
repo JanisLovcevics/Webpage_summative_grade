@@ -40,6 +40,7 @@ nav a {
     transition: 0.5s ease;
     border-radius: 15px;
     padding: 10px;
+    color: var(--carbon_black);
 }
 
 nav {
@@ -192,4 +193,14 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     line-height: 1.5;
+}
+
+main {
+
+}
+
+.search-area {
+    display: flex;
+    flex-direction: row;
+    max-height: 100px;
 }
