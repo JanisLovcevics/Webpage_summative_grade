@@ -29,7 +29,7 @@ header {
     justify-content: space-between;
     padding: 10px;
     padding-left: 60px;
-    padding-right: 80px;
+    padding-right: 60px;
     background-color: var(--pink);
 }
 
@@ -111,13 +111,13 @@ p {
 
 .disc_products {
     background-color: var(--pink);
-    padding: 20px;
+    padding: 20px 60px;
     padding-bottom: 30px;
 }
 
 .new_arrivals {
     background-color: var(--pink);
-    padding: 20px;
+    padding: 20px 60px;
     padding-bottom: 30px;
 }
 
@@ -177,7 +177,7 @@ h3 {
 
 .about {
     background-color: var(--pink);
-    padding: 20px;
+    padding: 20px 60px;
     padding-bottom: 30px;
 }
 
@@ -187,7 +187,7 @@ h3 {
 
 footer {
     background-color: var(--pink);
-    padding: 20px;
+    padding: 20px 60px;
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -239,7 +239,7 @@ main {
 
 .filter select{
     min-height: 40px;
-    width: 150px;
+    width: 200px;
 }
 
 .filter option:hover{
@@ -256,5 +256,9 @@ main {
     align-items: center;
     justify-content: space-between;
     background-color: var(--pink);
-    padding: 20px;
+    padding: 20px 60px 20px 60px;
+}
+
+.filter select{
+    padding: 10px;
 }
