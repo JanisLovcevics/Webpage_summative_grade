@@ -211,7 +211,7 @@ main {
     display: flex;
     flex-direction: row;
     max-height: 50px;
-    background-color: var(--pink);
+    width: 40%;
 }
 
 .search-bar {
@@ -219,6 +219,7 @@ main {
     border: none;
     border-radius: 0;
     font-size: var(--text-size);
+    width: 100%;
 }
 
 .search-bar:focus {
@@ -229,12 +230,31 @@ main {
     background-color: var(--gray);
     border: none;
     cursor: pointer;
+    width: 75px;
 }
 
 .search-btn img {
     height: 20px;
 }
 
-.filter {
-    
+.filter select{
+    min-height: 40px;
+    width: 150px;
+}
+
+.filter option:hover{
+    background-color: var(--hover_blue);
+}
+
+.filter select:focus{
+    outline: none;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--pink);
+    padding: 20px;
 }
