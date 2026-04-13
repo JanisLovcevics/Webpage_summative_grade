@@ -146,6 +146,15 @@ h2 {
     flex-direction: column;
     height: 300px;
     width: 200px;
+    transition: 0.3s ease;
+    border-radius: 15%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    background-color: #ce919f;
 }
 
 .product img {
@@ -220,10 +229,12 @@ main {
     border-radius: 0;
     font-size: var(--text-size);
     width: 100%;
+    border: 1px solid var(--gray);
 }
 
 .search-bar:focus {
     outline: none;
+    border: 1px solid var(--carbon_black);
 }
 
 .search-btn {
@@ -231,6 +242,11 @@ main {
     border: none;
     cursor: pointer;
     width: 75px;
+    transition: 0.3s ease;
+}
+
+.search-btn:active {
+    background-color: gray;
 }
 
 .search-btn img {
@@ -242,12 +258,12 @@ main {
     width: 200px;
 }
 
-.filter option:hover{
-    background-color: var(--hover_blue);
-}
-
 .filter select:focus{
     outline: none;
+}
+
+.filter select:active {
+    background-color: var(--gray);
 }
 
 .search {
@@ -256,9 +272,19 @@ main {
     align-items: center;
     justify-content: space-between;
     background-color: var(--pink);
-    padding: 20px 60px 20px 60px;
+    padding: 20px 60px;
 }
 
 .filter select{
     padding: 10px;
+}
+
+.product_grid {
+    background-color: var(--pink);
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-content: center;
+    place-items: center;
+    row-gap: 15px;
 }
