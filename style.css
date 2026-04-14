@@ -161,6 +161,7 @@ h2 {
     height: 70%;
     width: auto;
     border-radius: 30px;
+    object-fit: cover;
 }
 
 h3 {
