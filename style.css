@@ -147,7 +147,7 @@ h2 {
     height: 300px;
     width: 200px;
     transition: 0.3s ease;
-    border-radius: 15%;
+    border-radius: 15px;
     padding: 10px;
     cursor: pointer;
 }
@@ -160,8 +160,7 @@ h2 {
 .product img {
     height: 70%;
     width: auto;
-    object-fit:contain;
-    border-radius: 15%;
+    border-radius: 30px;
 }
 
 h3 {
