@@ -1,0 +1,14 @@
+{
+    "product_list": [
+        {
+            "name":"Classic Linen Wrap Dress - Terracotta",
+            "price":75,
+            "image":"images/product1.png"
+        },
+        {
+            "name":"Faux Leather Trench Coat",
+            "price":115,
+            "image":"images/product2.png"
+        }
+    ]
+}
