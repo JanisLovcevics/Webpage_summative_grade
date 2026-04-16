@@ -1,14 +1,57 @@
 {
-    "product_list": [
+    "discounted_products" : [
         {
             "name":"Classic Linen Wrap Dress - Terracotta",
+            "old_price":110,
             "price":75,
             "image":"images/product1.png"
         },
         {
             "name":"Faux Leather Trench Coat",
+            "old_price":160,
             "price":115,
             "image":"images/product2.png"
+        },
+        {
+            "name":"Chunky Knit Cardigan",
+            "old_price":85,
+            "price":55,
+            "image":"images/product3.png"
+        },
+        {
+            "name":"Pleated Midi Skirt - Dusty Rose",
+            "old_price":70,
+            "price":45,
+            "image":"images/product4.png"
+        }
+    ],
+    "new_arrivals" : [
+        {
+            "name":"Midnight Blue Velvet Blazer",
+            "price":90,
+            "image":"images/product5.png"
+        },
+        {
+            "name":"Emerald Silk Slip Dress",
+            "price":120,
+            "image":"images/product6.png"
+        },
+        {
+            "name":"Cashmere Ribbed Turtleneck",
+            "price":80,
+            "image":"images/product7.png"
+        },
+        {
+            "name":"Tailored High-Waisted Wool Trousers",
+            "price":60,
+            "image":"images/product8.png"
+        }
+    ],
+    "products_list" : [
+        {
+            "name" : "Classic White Cotton Shirt",
+            "price" : 65,
+            "image" : "images/Shop/product1.png"
         }
     ]
 }
