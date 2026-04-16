@@ -24,13 +24,13 @@ class Disc_Product extends Product {
 }
 
 fetch('./products_data.json')
-  .then(response => {
+.then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     return response.json();
   })
-  .then(data => {
+.then(data => {
     try {
         const disc_products = document.querySelector(".disc_products").children[1];
         data.discounted_products.forEach(discounted_product => {
@@ -61,4 +61,4 @@ fetch('./products_data.json')
         console.error('Error displaying product list:', error);
     }
     })
-  .catch(error => console.error('Failed to fetch data:', error));
+.catch(error => console.error('Failed to fetch data:', error));

@@ -1,57 +1,132 @@
 {
-    "discounted_products" : [
+    "discounted_products": [
         {
-            "name":"Classic Linen Wrap Dress - Terracotta",
-            "old_price":110,
-            "price":75,
-            "image":"images/product1.png"
+            "name": "Classic Linen Wrap Dress - Terracotta",
+            "old_price": 110,
+            "price": 75,
+            "image": "images/product1.png"
         },
         {
-            "name":"Faux Leather Trench Coat",
-            "old_price":160,
-            "price":115,
-            "image":"images/product2.png"
+            "name": "Faux Leather Trench Coat",
+            "old_price": 160,
+            "price": 115,
+            "image": "images/product2.png"
         },
         {
-            "name":"Chunky Knit Cardigan",
-            "old_price":85,
-            "price":55,
-            "image":"images/product3.png"
+            "name": "Chunky Knit Cardigan",
+            "old_price": 85,
+            "price": 55,
+            "image": "images/product3.png"
         },
         {
-            "name":"Pleated Midi Skirt - Dusty Rose",
-            "old_price":70,
-            "price":45,
-            "image":"images/product4.png"
+            "name": "Pleated Midi Skirt - Dusty Rose",
+            "old_price": 70,
+            "price": 45,
+            "image": "images/product4.png"
         }
     ],
-    "new_arrivals" : [
+    "new_arrivals": [
         {
-            "name":"Midnight Blue Velvet Blazer",
-            "price":90,
-            "image":"images/product5.png"
+            "name": "Midnight Blue Velvet Blazer",
+            "price": 90,
+            "image": "images/product5.png"
         },
         {
-            "name":"Emerald Silk Slip Dress",
-            "price":120,
-            "image":"images/product6.png"
+            "name": "Emerald Silk Slip Dress",
+            "price": 120,
+            "image": "images/product6.png"
         },
         {
-            "name":"Cashmere Ribbed Turtleneck",
-            "price":80,
-            "image":"images/product7.png"
+            "name": "Cashmere Ribbed Turtleneck",
+            "price": 80,
+            "image": "images/product7.png"
         },
         {
-            "name":"Tailored High-Waisted Wool Trousers",
-            "price":60,
-            "image":"images/product8.png"
+            "name": "Tailored High-Waisted Wool Trousers",
+            "price": 60,
+            "image": "images/product8.png"
         }
     ],
-    "products_list" : [
+    "products_list": [
         {
-            "name" : "Classic White Cotton Shirt",
-            "price" : 65,
-            "image" : "images/Shop/product1.png"
+            "name": "Classic White Cotton Shirt",
+            "price": 65,
+            "image": "images/Shop/product1.png"
+        },
+        {
+            "name": "Straight-Leg Raw Denim Jeans",
+            "price": "85",
+            "image": "images/Shop/product2.png"
+        },
+        {
+            "name": "Tailored Camel Wool Coat",
+            "price": "195",
+            "image": "images/Shop/product3.png"
+        },
+        {
+            "name": "Light Brown Leather Penny Loafers",
+            "price": "130",
+            "image": "images/Shop/product4.png"
+        },
+        {
+            "name": "Casual Striped Cotton T-shirt",
+            "price": "45",
+            "image": "images/Shop/product5.png"
+        },
+        {
+            "name": "Silk Floral Patterned Scarf",
+            "price": "55",
+            "image": "images/Shop/product6.png"
+        },
+        {
+            "name": "Charcoal Grey Pencil Shirt",
+            "price": "75",
+            "image": "images/Shop/product7.png"
+        },
+        {
+            "name": "Navy Blue Silk Blouse",
+            "price": "110",
+            "image": "images/Shop/product8.png"
+        },
+        {
+            "name": "Essential Grey Cotton Hoodie",
+            "price": "60",
+            "image": "images/Shop/product9.png"
+        },
+        {
+            "name": "Minimalist White Leather Sneakers",
+            "price": "120",
+            "image": "images/Shop/product10.png"
+        },
+        {
+            "name": "Classic Black Leather Belt",
+            "price": "40",
+            "image": "images/Shop/product11.png"
+        },
+        {
+            "name": "Olive Green Lightweight Parka",
+            "price": "95",
+            "image": "images/Shop/product12.png"
+        },
+        {
+            "name": "Cream Cable-Knit Wool Sweate",
+            "price": "105",
+            "image": "images/Shop/product13.png"
+        },
+        {
+            "name": "Tailored Khaki Chino Trousers",
+            "price": "70",
+            "image": "images/Shop/product14.png"
+        },
+        {
+            "name": "Mustard Yellow Pleated Midi Skirt",
+            "price": "85",
+            "image": "images/Shop/product15.png"
+        },
+        {
+            "name": "Dark Brown Leather Loafers",
+            "price": "135",
+            "image": "images/Shop/product16.png"
         }
     ]
 }
