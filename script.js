@@ -53,10 +53,29 @@ fetch('./products_data.json')
 
     try {
         const product_list = document.querySelector(".product_grid");
-        data.products_list.forEach(product => {
-            const productElement = new Product(product.name, product.price, product.image)
-            productElement.display(product_list)
-        })
+        const filter = document.querySelector("#filter");
+
+        const renderProducts  = (productsToRender) => {
+            product_list.innerHTML = '';
+            productsToRender.forEach(product => {
+                const productElement = new Product(product.name, product.price, product.image)
+                productElement.display(product_list)
+            })
+        }
+        renderProducts(data.products_list)
+
+        if (filter) {
+            filter.addEventListener('change', (event) => {
+                const selectedOption = event.target.value;
+
+                if (selectedOption === 'all'){
+                    renderProducts(data.products_list)
+                }
+                else {
+                    const filteredProducts = data.products_list.filter(product => product.type === selectedOption);
+                    renderProducts(filteredProducts)
+            }})
+        }
     } catch (error) {
         console.error('Error displaying product list:', error);
     }

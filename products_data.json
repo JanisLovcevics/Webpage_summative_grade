@@ -51,82 +51,98 @@
         {
             "name": "Classic White Cotton Shirt",
             "price": 65,
-            "image": "images/Shop/product1.png"
+            "image": "images/Shop/product1.png",
+            "type": "tops"
         },
         {
             "name": "Straight-Leg Raw Denim Jeans",
             "price": "85",
-            "image": "images/Shop/product2.png"
+            "image": "images/Shop/product2.png",
+            "type": "pants"
         },
         {
             "name": "Tailored Camel Wool Coat",
             "price": "195",
-            "image": "images/Shop/product3.png"
+            "image": "images/Shop/product3.png",
+            "type": "tops"
         },
         {
             "name": "Light Brown Leather Penny Loafers",
             "price": "130",
-            "image": "images/Shop/product4.png"
+            "image": "images/Shop/product4.png",
+            "type": "shoes"
         },
         {
             "name": "Casual Striped Cotton T-shirt",
             "price": "45",
-            "image": "images/Shop/product5.png"
+            "image": "images/Shop/product5.png",
+            "type": "tops"
         },
         {
             "name": "Silk Floral Patterned Scarf",
             "price": "55",
-            "image": "images/Shop/product6.png"
+            "image": "images/Shop/product6.png",
+            "type": "accessories"
         },
         {
-            "name": "Charcoal Grey Pencil Shirt",
+            "name": "Charcoal Grey Pencil Pants",
             "price": "75",
-            "image": "images/Shop/product7.png"
+            "image": "images/Shop/product7.png",
+            "type": "pants"
         },
         {
             "name": "Navy Blue Silk Blouse",
             "price": "110",
-            "image": "images/Shop/product8.png"
+            "image": "images/Shop/product8.png",
+            "type": "tops"
         },
         {
             "name": "Essential Grey Cotton Hoodie",
             "price": "60",
-            "image": "images/Shop/product9.png"
+            "image": "images/Shop/product9.png",
+            "type": "tops"
         },
         {
             "name": "Minimalist White Leather Sneakers",
             "price": "120",
-            "image": "images/Shop/product10.png"
+            "image": "images/Shop/product10.png",
+            "type": "shoes"
         },
         {
             "name": "Classic Black Leather Belt",
             "price": "40",
-            "image": "images/Shop/product11.png"
+            "image": "images/Shop/product11.png",
+            "type": "accessories"
         },
         {
             "name": "Olive Green Lightweight Parka",
             "price": "95",
-            "image": "images/Shop/product12.png"
+            "image": "images/Shop/product12.png",
+            "type": "tops"
         },
         {
             "name": "Cream Cable-Knit Wool Sweate",
             "price": "105",
-            "image": "images/Shop/product13.png"
+            "image": "images/Shop/product13.png",
+            "type": "tops"
         },
         {
             "name": "Tailored Khaki Chino Trousers",
             "price": "70",
-            "image": "images/Shop/product14.png"
+            "image": "images/Shop/product14.png",
+            "type": "pants"
         },
         {
             "name": "Mustard Yellow Pleated Midi Skirt",
             "price": "85",
-            "image": "images/Shop/product15.png"
+            "image": "images/Shop/product15.png",
+            "type": "skirts"
         },
         {
             "name": "Dark Brown Leather Loafers",
             "price": "135",
-            "image": "images/Shop/product16.png"
+            "image": "images/Shop/product16.png",
+            "type": "shoes"
         }
     ]
 }

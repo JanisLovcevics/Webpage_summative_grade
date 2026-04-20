@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image.png" href="images/icon.png">
     <title>Store</title>
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="layout">
@@ -21,20 +20,20 @@
             <div class="search">
                 <div class="search-area">
                     <input type="search" placeholder="Search" class="search-bar" id="search-bar" style="display: block;">
-                    <script src="search.js"></script>
                     <button name="search-btn" class="search-btn"><img src="images/loupe.png"></button>
                 </div>
                 <div class="filter">
-                    <select name="filter" class="filter-select">
+                    <select id="filter" class="filter-select">
                         <option value="all">All</option>
-                        <option value="dresses">Dresses</option>
-                        <option value="coats">Coats</option>
-                        <option value="cardigans">Cardigans</option>
-                        <option value="skirts">Skirts</option>
-                        <option value="blazers">Blazers</option>
-                        <option value="slip-dresses">Slip Dresses</option>
+                        <option value="tops">Tops</option>
+                        <option value="pants">Pants</option>
+                        <option value="skrits">Skirts</option>
+                        <option value="accessories">Accessories</option>
+                        <option value="shoes">Shoes</option>
                     </select>
                 </div>
+                <script src="search.js"></script>
+                <script src="script.js"></script>
             </div>
             <div class="product_grid">
                 <!-- Product items will be dynamically inserted here -->
