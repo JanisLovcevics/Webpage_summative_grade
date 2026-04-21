@@ -144,8 +144,8 @@ h2 {
 .product {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: auto;
     transition: 0.3s ease;
     border-radius: 30px;
     padding: 10px;
@@ -283,8 +283,9 @@ main {
     background-color: var(--pink);
     padding: 20px 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    place-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    place-content: start;
     place-items: center;
     row-gap: 15px;
+    justify-content: center;
 }
