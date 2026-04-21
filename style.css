@@ -283,8 +283,8 @@ main {
     background-color: var(--pink);
     padding: 20px 60px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-    place-content: start;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    place-content: center;
     place-items: center;
     row-gap: 15px;
     justify-content: center;

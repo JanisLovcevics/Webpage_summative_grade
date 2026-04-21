@@ -4,13 +4,13 @@ class Product {
         this.price = price;
         this.image = image;
     }
-    display(product_list) {
+    display(product_list, old_price = null) {
         const productElement = document.createElement('div');
         productElement.classList.add('product');
         productElement.innerHTML = `
             <img src="${this.image}" alt="${this.name}">
             <h3>${this.name}</h3>
-            <div class="price">€${this.price}.00</div>
+            <div class="price">${old_price ? `<span class="discount">€${old_price}.00</span>` : ''}€${this.price}.00</div>
         `;
         product_list.appendChild(productElement);
     }
@@ -35,7 +35,7 @@ fetch('./products_data.json')
         const disc_products = document.querySelector(".disc_products").children[1];
         data.discounted_products.forEach(discounted_product => {
             const productElement = new Disc_Product(discounted_product.name, discounted_product.price, discounted_product.image, discounted_product.old_price)
-            productElement.display(disc_products)
+            productElement.display(disc_products, discounted_product.old_price)
         })
     } catch (error) {
         console.error('Error displaying discounted products:', error);
@@ -53,10 +53,29 @@ fetch('./products_data.json')
 
     try {
         const product_list = document.querySelector(".product_grid");
-        data.products_list.forEach(product => {
-            const productElement = new Product(product.name, product.price, product.image)
-            productElement.display(product_list)
-        })
+        const filter = document.querySelector("#filter");
+
+        const renderProducts  = (productsToRender) => {
+            product_list.innerHTML = '';
+            productsToRender.forEach(product => {
+                const productElement = new Product(product.name, product.price, product.image)
+                productElement.display(product_list)
+            })
+        }
+        renderProducts(data.products_list)
+
+        if (filter) {
+            filter.addEventListener('change', (event) => {
+                const selectedOption = event.target.value;
+
+                if (selectedOption === 'all'){
+                    renderProducts(data.products_list)
+                }
+                else {
+                    const filteredProducts = data.products_list.filter(product => product.type === selectedOption);
+                    renderProducts(filteredProducts)
+            }})
+        }
     } catch (error) {
         console.error('Error displaying product list:', error);
     }
